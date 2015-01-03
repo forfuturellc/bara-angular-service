@@ -1,0 +1,26 @@
+{
+  "name": "bara-angular-service",
+  "version": "0.0.0",
+  "description": "Angular Service for accessing Bara API ",
+  "homepage": "http://github.com/forfuture-dev/bara-angular-service",
+  "license": "MIT",
+  "keywords": [
+    "bara",
+    "angular",
+    "service",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forfuture-dev/bara-angular-service.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "author": "GochoMugo <mugo@forfuture.co.ke>",
+  "dependencies":{},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0"
+  },
+}
