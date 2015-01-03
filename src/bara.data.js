@@ -6,7 +6,7 @@
 */
 
 
-angular.service("BaraService.Data.Fixtures", [function() {
+angular.service("BaraServiceDataFixtures", [function() {
   "use strict";
 
   var countries = [
