@@ -6,7 +6,10 @@
 */
 
 
-angular.service("BaraService", [function() {
+angular.module("Bara", [])
+
+
+.service("BaraService", [function() {
   "use strict";
 
   // acts as a cache of all data retrieved
