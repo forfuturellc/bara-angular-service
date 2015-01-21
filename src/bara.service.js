@@ -30,7 +30,7 @@ angular.module("Bara", [])
   // acts a holder for methods related to notifications
   this.notifications = {};
 
-  /*
+  /**
   * Returns notifications
   */
   this.notifications.get = function(id) {
@@ -44,6 +44,28 @@ angular.module("Bara", [])
       }
     }
     return data.notifications;
+  };
+
+
+  /**
+  * votes up a notification
+  *
+  * @param  {String}  id -- id of the notifcation
+  */
+  this.notifications.voteUp = function(id) {
+    // Missing hook
+    return true;
+  };
+
+
+  /**
+  * votes down a notification
+  *
+  * @param  {String} id -- id of the notifcation
+  */
+  this.notifications.voteDown = function(id) {
+    // Missing hook
+    return true;
   };
 
 }]);
