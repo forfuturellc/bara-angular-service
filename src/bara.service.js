@@ -6,7 +6,7 @@
 */
 
 
-angular.module("Bara", [])
+angular.module("Bara", ["ngResource"])
 
 
 .service("BaraService", [function() {
