@@ -6,9 +6,9 @@
 angular.module("Bara")
 
 
-.factory("CountryFactory", ["$resource", function($resource) {
+.factory("CountryFactory", ["$resource", "BASE_URL", function($resource, BASE_URL) {
   "use strict";
-  return $resource("/country/:countryName/:resource", null, {
+  return $resource(BASE_URL + "/country/:countryName/:resource", null, {
     get: {
       method: "GET",
       params: { countryName: "@countryName" }
