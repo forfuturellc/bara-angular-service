@@ -6,7 +6,7 @@
 angular.module("Bara")
 
 
-.factory("Notifications", ["$resource", "BASE_URL", function($resource, BASE_URL) {
+.factory("BaraNotifications", ["$resource", "BASE_URL", function($resource, BASE_URL) {
   "use strict";
   return $resource(BASE_URL + "/notifications/:id", null, {
     //get: { method: "GET", params: { id: "", index: "@index" }, isArray: true },
